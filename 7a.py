@@ -15,7 +15,7 @@ from sklearn.model_selection import train_test_split
 
 # ============================================================
 # FILE PATHS
-# ============================================================
+
 
 current_directory = os.path.dirname(
     os.path.abspath(__file__)
@@ -43,7 +43,7 @@ computational_file = os.path.join(
 
 
 # ============================================================
-# LOAD DATASETS
+# LOAD DATASETS from file
 # ============================================================
 
 human_data = pd.read_csv(
